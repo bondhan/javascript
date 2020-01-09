@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Vue Learning</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+    <div id="app">
+        <p><b>{{ message }}</b></p> 
+    </div>
+
+    <div v-show="count === 1">
+        Green
+    </div>
+
+    <input v-model="email" >
+
+    </input>
+
+    <script src="assets/vendor/vue.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
